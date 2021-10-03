@@ -48,13 +48,6 @@ const Admin = () => {
     setData(_data);
   };
 
-  const handleSelect = (event, rowData) => {
-
-      if( rowData.length === data.length) {
-          alert("")
-      }
-  }
-
   return (
     <MaterialTable
       title="Admin UI"
